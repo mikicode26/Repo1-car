@@ -1,0 +1,18 @@
+.nav-main {
+    margin-left: auto;
+    .nav-main__list {
+        display: flex;
+        gap: 48px;
+        margin-right: 72px;
+    }
+    .nav-main__link:hover {
+        color: var(--bg-color-hover);
+    }
+}
+
+
+
+
+
+    
+    
