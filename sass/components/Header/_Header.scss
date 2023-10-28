@@ -1,0 +1,14 @@
+@import "./components/Logo";
+@import "./components/Navigation";
+
+
+.header-section {
+    padding: 40px 0 107px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
