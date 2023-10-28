@@ -166,7 +166,7 @@ body {
   height: 100%;
   top: 0;
   right: 0;
-  background: url("/assets/images/chevrolet mint.png") no-repeat;
+  background: url("../assets/images/chevrolet mint.png") no-repeat;
 }
 .banner-img::after {
   position: absolute;
@@ -204,16 +204,16 @@ body {
   -webkit-transition: 2s ease 0s;
   transition: 2s ease 0s;
   height: 524px;
-  background: url("/assets/images/BMW M4 Car Review.jpeg") 50%/cover no-repeat;
+  background: url("../assets/images/BMW M4 Car Review.jpeg") 50%/cover no-repeat;
 }
 .rent-wrap .rent:nth-child(2) {
-  background-image: url("/assets/images/chevrolet.jpeg");
+  background-image: url("../assets/images/chevrolet.jpeg");
 }
 .rent-wrap .rent:nth-child(3) {
-  background-image: url("/assets/images/audi autumn.jpg");
+  background-image: url("../assets/images/audi autumn.jpg");
 }
 .rent-wrap .rent:nth-child(4) {
-  background-image: url("/assets/images/luxuryculture.jpeg");
+  background-image: url("../assets/images/luxuryculture.jpeg");
 }
 .rent-wrap .rent .rent__name {
   position: absolute;
@@ -242,7 +242,7 @@ body {
   height: 16px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: url("/assets/icons/mintarrow.png") 50%/cover no-repeat;
+  background: url("../assets/icons/mintarrow.png") 50%/cover no-repeat;
 }
 
 .services-section {
@@ -317,7 +317,7 @@ body {
   height: 30px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: url("/assets/icons/Front Car.svg");
+  background: url("../assets/icons/Front Car.svg");
 }
 .destination-wrap .destination .destination-info .destination__link {
   color: var(--bg-color);
