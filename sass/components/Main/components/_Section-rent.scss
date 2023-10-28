@@ -23,15 +23,15 @@
         position: relative;
         transition: 2s ease 0s;
         height: 524px;
-        background: url("./assets/images/BMW\ M4\ Car\ Review.jpeg") 50%/cover no-repeat;
+        background: url("../assets/images/BMW\ M4\ Car\ Review.jpeg") 50%/cover no-repeat;
         &:nth-child(2) {
-            background-image: url("./assets/images/chevrolet.jpeg");
+            background-image: url("../assets/images/chevrolet.jpeg");
         }
         &:nth-child(3) {
-            background-image: url("./assets/images/audi\ autumn.jpg");
+            background-image: url("../assets/images/audi\ autumn.jpg");
         }
         &:nth-child(4) {
-            background-image: url("./assets/images/luxuryculture.jpeg");
+            background-image: url("../assets/images/luxuryculture.jpeg");
         }
         .rent__name {
             position: absolute;
