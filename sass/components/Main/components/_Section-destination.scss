@@ -1,0 +1,53 @@
+// Destination to
+
+.destination-section {
+    padding-bottom: 162px;
+}
+
+.destination-section__title {
+    width: 590px;
+    margin: 0 auto 40px;
+}
+
+.destination-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    .destination {
+        border: 1px solid #171717;
+        background-color: #131313;
+        .destination-info {
+            padding: 24px;
+            .destination__title {
+                font-size: 24px;
+                line-height: 32px;
+            }
+            .destination__text {
+                margin: 10px 0 25px;
+                color: rgb(255 255 255 / 80%);
+            }
+            .destination__price {
+                position: relative;
+                padding-left: 42px;
+                font-weight: 600;
+                margin-bottom: 17px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    width: 30px;
+                    height: 30px;
+                    transform: translateY(-50%);
+                    background: url('/assets/icons/Front\ Car.svg');
+                }
+            }
+            .destination__link {
+                color: var(--bg-color);
+                &:hover {
+                    color: var(--bg-color-hover);
+                }
+            }
+        }
+    }
+}
