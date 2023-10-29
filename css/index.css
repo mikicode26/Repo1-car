@@ -143,7 +143,7 @@ body {
 .banner .banner-features__text:first-child {
   margin-right: 40px;
 }
-.banner .banner-features__text .banner-features__text_strong {
+.banner .banner-features__text .banner-features__text-strong {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
