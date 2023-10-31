@@ -287,6 +287,16 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+@media (max-width: 700px) {
+  .destination-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .destination-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .destination-wrap .destination {
   border: 1px solid #171717;
   background-color: #131313;
@@ -339,6 +349,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
