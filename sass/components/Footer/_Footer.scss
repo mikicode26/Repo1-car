@@ -1,77 +1,78 @@
 .footer-section {
-    padding-top: 40px;
-    background-color: var(--bg-color-hover);
+  padding-top: 40px;
+  background-color: var(--bg-color-hover);
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 65px;
 }
 
 .footer-logo-wrap {
-    display: flex;
-    align-items: center;
-    gap: 17px;
-    margin-bottom: 64px;
-    font-weight: 600;
-    .footer-about__img {
-        width: 48px;
-        height: 48px;
-    }
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-bottom: 64px;
+  font-weight: 600;
+  .footer-about__img {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 .footer-about__text {
-    max-width: 235px;
-    font-size: 18px;
-    line-height: 32px;
+  max-width: 235px;
+  font-size: 18px;
+  line-height: 32px;
 }
 
 .footer-nav-wrap {
-    display: flex;
-    justify-content: space-between;
-    gap: 45px;
-    margin: 40px 100px 0 auto;
-    .footer-nav__header {
-        margin-bottom: 32px;
-        font-size: 18px;
-        line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  margin: 40px 100px 0 auto;
+  .footer-nav__header {
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .footer-nav__item {
+    margin-bottom: 28px;
+    line-height: 20px;
+  }
+  .footer-nav__link {
+    color: rgb(255 255 255 / 80%);
+    &:hover {
+      color: var(--bg-color);
     }
-    .footer-nav__item {
-        margin-bottom: 28px;
-        line-height: 20px;
-    }
-    .footer-nav__link {
-        color: rgb(255 255 255 / 80%);
-        &:hover {
-            color: var(--bg-color);
-        }
-    }
+  }
 }
 
 .footer-social {
-    margin-top: 32px;
-    .footer-social__link {
-        display: block;
-        width: 120px;
-        height: 30px;
-        margin-bottom: 45px;
-        background: url("/assets/icons/social_1.svg") 50%/cover no-repeat;
-        &:nth-child(2) {
-            background: url("/assets/icons/social_2.svg") 50%/cover no-repeat;
-        }
-        &:nth-child(3) {
-            background: url("/assets/icons/social_3.svg") 50%/cover no-repeat;
-        }
-    }    
+  margin-top: 32px;
+  .footer-social__link {
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 45px;
+    background: url("/assets/icons/social_1.svg") 50% / cover no-repeat;
+    &:nth-child(2) {
+      background: url("/assets/icons/social_2.svg") 50% / cover no-repeat;
+    }
+    &:nth-child(3) {
+      background: url("/assets/icons/social_3.svg") 50% / cover no-repeat;
+    }
+  }
 }
 
 .footer-copywrite {
-    background-color: var(--bg-color);
-    padding: 20px 0 20px 0;
-    .footer-copywrite__text {
-        text-align: center;
-        font-size: 16px;
-        line-height: 28px;
-    }
+  background-color: var(--bg-color);
+  padding: 20px 0 20px 0;
+  .footer-copywrite__text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
