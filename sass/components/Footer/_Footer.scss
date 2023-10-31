@@ -57,12 +57,12 @@
     width: 120px;
     height: 30px;
     margin-bottom: 45px;
-    background: url("/assets/icons/social_1.svg") 50% / cover no-repeat;
+    background: url("../assets/icons/social_1.svg") 50% / cover no-repeat;
     &:nth-child(2) {
-      background: url("/assets/icons/social_2.svg") 50% / cover no-repeat;
+      background: url("../assets/icons/social_2.svg") 50% / cover no-repeat;
     }
     &:nth-child(3) {
-      background: url("/assets/icons/social_3.svg") 50% / cover no-repeat;
+      background: url("../assets/icons/social_3.svg") 50% / cover no-repeat;
     }
   }
 }
