@@ -1,65 +1,72 @@
 // Rent
 
 .title-section {
-    font-size: 52px;
-    line-height: 64px;
-    text-align: center;
-    letter-spacing: 0.6px;
-    margin-bottom: 40px;
+  font-size: 52px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  margin-bottom: 40px;
 }
 
 .rent-section {
-    padding: 60px 0 120px;
-    overflow: hidden;
+  padding: 60px 0 120px;
+  overflow: hidden;
 }
 
 .rent-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-    font-weight: 600;
-    overflow: hidden;
-    .rent {
-        position: relative;
-        transition: 2s ease 0s;
-        height: 524px;
-        background: url("../assets/images/BMW\ M4\ Car\ Review.jpeg") 50%/cover no-repeat;
-        &:nth-child(2) {
-            background-image: url("../assets/images/chevrolet.jpeg");
-        }
-        &:nth-child(3) {
-            background-image: url("../assets/images/audi\ autumn.jpg");
-        }
-        &:nth-child(4) {
-            background-image: url("../assets/images/luxuryculture.jpeg");
-        }
-        .rent__name {
-            position: absolute;
-            top: 48px;
-            left: 48px;
-            font-size: 40px;
-            letter-spacing: 0.6px;
-        }
-        .rent__link {
-            position: absolute;
-            bottom: 48px;
-            right: 60px;
-            padding: 30px;
-            font-size: 24px;
-            letter-spacing: 0.6px;
-            &:hover {
-                color: var(--bg-color);
-            }
-            &::after {
-                content: '';
-                position: absolute;
-                top: 50%;
-                right: 0;
-                width: 8px;
-                height: 16px;
-                transform: translateY(-50%);
-                background: url("../assets/icons/mintarrow.png") 50%/cover no-repeat;
-            }
-        }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  font-weight: 600;
+  overflow: hidden;
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rent {
+    position: relative;
+    transition: 2s ease 0s;
+    height: 524px;
+    background: url("../assets/images/BMW\ M4\ Car\ Review.jpeg") 50% / cover
+      no-repeat;
+    &:nth-child(2) {
+      background-image: url("../assets/images/chevrolet.jpeg");
     }
+    &:nth-child(3) {
+      background-image: url("../assets/images/audi\ autumn.jpg");
+    }
+    &:nth-child(4) {
+      background-image: url("../assets/images/luxuryculture.jpeg");
+    }
+    .rent__name {
+      position: absolute;
+      top: 48px;
+      left: 48px;
+      font-size: 40px;
+      letter-spacing: 0.6px;
+    }
+    .rent__link {
+      position: absolute;
+      bottom: 48px;
+      right: 60px;
+      padding: 30px;
+      font-size: 24px;
+      letter-spacing: 0.6px;
+      &:hover {
+        color: var(--bg-color);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 8px;
+        height: 16px;
+        transform: translateY(-50%);
+        background: url("../assets/icons/mintarrow.png") 50% / cover no-repeat;
+      }
+    }
+  }
 }
